@@ -5,6 +5,13 @@
 ## a) Linux
 
 ## b) Internet-yhteyden katkaiseminen
+Internet-yhteys oli katkaistettu ja yritin pingata testakseen yhteyden.
+<img width="1011" height="257" alt="image" src="https://github.com/user-attachments/assets/8bff0fca-f4cf-4cdf-9dce-e65eed6afead" />
+
+Yhteyden palautettua testasin pingia uudelleen ja tuloksena Internet-yhteys palasi.
+<img width="1007" height="674" alt="image" src="https://github.com/user-attachments/assets/8bb6155b-f075-4f66-93ac-accaf84180bc" />
+
+
 
 ## c) Wireshark
 
