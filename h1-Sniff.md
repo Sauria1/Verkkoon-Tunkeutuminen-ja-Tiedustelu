@@ -43,10 +43,26 @@ MAC-osoitteesta selviää käyttäjän verokortti (52:54:00:2f:e1:e5)
 ## h) Millä weppipalvelimella käyttäjä on surffaillut?
 <img width="1763" height="785" alt="image" src="https://github.com/user-attachments/assets/fb40f1d6-e93a-4bfc-bc19-179f57a85ba4" />
 
-Tarkastelemalla DNS-kyselyitä näkee, missä käyttäjä on surffaillut
+Tarkastelemalla DNS-kyselyitä näkee, missä käyttäjä on surffaillut eli "google.com" ja "terokarvinen.com"
 
 ## i) Analyysi
+<img width="1760" height="710" alt="image" src="https://github.com/user-attachments/assets/9471ab9c-59dd-4003-ab7b-3541f44dd43e" />
+
+-  Tarkastelin omaa liikennettä ensimmäiset 14 framea
+-  Tein terminaalissa komennon 'ping temu.com', jolloin tuli DNS-kyselyitä selvittääkseen IP-osoitteen
+-  Sitten lähti pari ping-pakettia osoitteeseen '151.101.66.58' osoitteesta '10.0.2.15'
+-  Vastaanotetut Echo Replyt osoittivat, että yhteys toimi ja vastausaika oli lyhyt
+
 
 ## Lähteet:
-Karvinen, T. (2025). Verkkoon tunkeutuminen ja tiedustelu.
+Karvinen, T. (2025). Verkkoon tunkeutuminen ja tiedustelu
+
 https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/
+
+Karvinen, T. (2025). Wireshark - Getting Started
+
+https://terokarvinen.com/wireshark-getting-started/
+
+Karvinen, T. (2025). Network Interface Names on Linux
+
+https://terokarvinen.com/network-interface-linux/
