@@ -37,8 +37,13 @@ TCP/IP neljä kerrosta
 - Paketteja 283 kappaletta
 - Siirtonopeus noin 129 kbit/s
 ## g) Minkä merkkinen verkkokortti käyttäjällä on?
+<img width="1195" height="757" alt="image" src="https://github.com/user-attachments/assets/23cc96b2-fffb-4664-9361-18ee49eccc81" />
+MAC-osoitteesta selviää käyttäjän verokortti (52:54:00:2f:e1:e5)
 
 ## h) Millä weppipalvelimella käyttäjä on surffaillut?
+<img width="1763" height="785" alt="image" src="https://github.com/user-attachments/assets/fb40f1d6-e93a-4bfc-bc19-179f57a85ba4" />
+
+Tarkastelemalla DNS-kyselyitä näkee, missä käyttäjä on surffaillut
 
 ## i) Analyysi
 
