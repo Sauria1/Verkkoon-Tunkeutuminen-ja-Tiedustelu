@@ -90,7 +90,7 @@ Apache-lokeista löytyi selviä jälkiä Nmap Scripting Engine -skripteistä:
 - Useat peräkkäiset HTTP-pyynnöt (GET, OPTIONS, POST) samalta IP:ltä eli localhost
   
 ## f) Net grep
-Sieppasin verkkoliikenettä `ngrep` komenolla ja näytin kohdat, joissa on sana "nmap"
+Sieppasin verkkoliikenettä `ngrep` komenolla, joissa on sana "nmap"
 #### Terminaali 1 - ngrep-sieppaus:
 ```
 sudo ngrep -d lo -i nmap
@@ -107,7 +107,7 @@ sudo nmap -A localhost
 - 2805 pakettia vastaanotettu, 54 kohdetta sisälsi sanan "nmap"
 
 ## g) Agentti
-Vaihdoing user-agenttiä komenolla `nmap -A --script-args 'http.useragent=Mozilla/4.0 (Windows NT 11.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3' localhost`
+Vaihdoin user-agenttiä komenolla `nmap -A --script-args 'http.useragent=Mozilla/4.0 (Windows NT 11.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3' localhost`
 #### Tulokset
 <img width="1500" height="519" alt="image" src="https://github.com/user-attachments/assets/58a8279b-afb8-4fce-bd67-539877eb598a" />
 
@@ -119,8 +119,6 @@ Ajoin porttiskannaukset omalla user-agentillä komenolla `nmap -A --script-args 
 
 - Kun muutin User-Agentin, apache-lokista katosi 52 kohdetta, jotka sisälsivät sanan "nmap". Vertailun vuoksi f) Net grep-tehtävässä havaittiin aiemmin 54 vastaavaa osumaa
 - Lokista ja kaapatusta liikenteestä löytyy kuitenkin edelleen Nmapin tuottamia URL-polkuja, kuten /nmaplowercheck1761995157
-
-
 
 ## i) LoWeR ChEcK
 - Etsin nmap-tekstiä hakemistosta `/usr/share/nmap` komennolla:
