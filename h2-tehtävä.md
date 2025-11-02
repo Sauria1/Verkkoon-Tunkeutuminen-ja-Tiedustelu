@@ -55,7 +55,7 @@ PORT    STATE SERVICE VERSION
 - Apache httpd 2.4.65 ((Debian)) Nmap tunnisti palvelinohjelmiston ja version. 
 
 ## c) Skriptit
-Omasta tuloksesta skripteiksi ajaettiin:
+Omasta tuloksesta skripteiksi ajettiin:
 
 - **80/tcp**
   - http-tittle
