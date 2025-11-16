@@ -1,7 +1,5 @@
 # H6 WiFi
 
-## A)
-<img width="1235" height="1063" alt="image" src="https://github.com/user-attachments/assets/0552c685-f751-4bdb-a556-81ed6aa6f420" />
 
 ## B) Mitä opin ja mikä yllätti
 Olen oppinut, että
