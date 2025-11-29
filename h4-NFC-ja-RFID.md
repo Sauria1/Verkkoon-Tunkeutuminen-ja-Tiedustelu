@@ -42,7 +42,12 @@ APDU (Application Protocal Data Unit) on kortin ja päätelaitteen välinen vies
 
 ## C) RFID-hakkerointi
 
+Löysin vuoden 2013 uutisen, jossa itävaltalainen **Adrian Dabrowski** osoitti, kuinka helposti sähköisiä avainkorttilukkoja voitiin murtaa (It-viikko 31.12.2013). Hän rakensi itse halvan RFID-korttisimulaattorin, joka maksoi alle 15 euroa ja käytti sitä avatakseen oman talonsa ovia. Hän onnistui lukemaan postinkantajan yleisavaimen RFID-signaalin etäältä, minkä avulla hän pystyi avaamaan noin 43 prosenttia talon asunnoista. Nykyäään vastaavat lukitusjärjestelmät ovat yleensä paremmin suojattuja kuin tuohon aikaan.
+
 ## Lähteet:
 Karvinen, T. & Iso-Anttila, L. 2025. Verkkoon tunkeutuminen ja tiedustelu
 
 https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/
+
+It-viikko. 31.12.2013. 15 euroa riitti murtamaan asuntojen hienot sähkölukot. Ilta-Sanomat. 
+Luettavissa: https://www.is.fi/digitoday/art-2000001821216.html. Luettu: 29.11.2025.
