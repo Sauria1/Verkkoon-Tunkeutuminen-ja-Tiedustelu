@@ -219,7 +219,7 @@ virtualenv --system-site-packages env
 source env/bin/activate
 git clone --depth=1 https//github.com/jopohl/urh.git
 cd urh/
-pip install . (мirhe: "You need Cython to build URH's extensions!" )
+pip install . (virhe: "You need Cython to build URH's extensions!" )
 pip install cython
 pip install . (onnistui)
 ```
