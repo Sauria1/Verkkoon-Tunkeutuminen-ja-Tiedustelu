@@ -43,6 +43,7 @@ Aloitin selvittämällä, miten `rtl_433` ohjelmalla voidaan lukea tallennettu t
 rtl_433 -help
 ```
 Ohjeesta löysin kohdan tiedoston lukemiseen
+
 <img width="601" height="34" alt="image" src="https://github.com/user-attachments/assets/e4b35210-2d4a-4ced-ac7f-a6b7eb02f682" />
 
 Seuraavaksi avasin tiedostoa komennolla
@@ -200,7 +201,7 @@ Group     : 0
 Tulokset olivat täsmälleen samat kuin tehtävässsä C, mikä osoittaa, että kyseessä oli sama signaali. Muuutoksessa riitti siis vain tiedoston nimen mukauttaminen.
 
 ## E) Ultimate Radio Hacker (URH)
-Yritin asentaa `Ultimate Radio Hacker` ohjelman opettajan antamien ohjeiden mukaan mutta asennus ei onnistunut. Käytetyt komennot olivat:
+Yritin asentaa `Ultimate Radio Hacker` ohjelman opettajan antamien ohjeiden mukaan mutta asennus ei onnistunut. Käytetyt komennot olivat
 ```
 Helppo asennus, sopii valmiiksi kaapattujen signaalien analyysiin
 $ sudo apt-get update
@@ -244,3 +245,11 @@ Asennuksen jälkeen URH käynnistyi normaalisti
 Karvinen, T. & Iso-Anttila, L. 2025. Verkkoon tunkeutuminen ja tiedustelu
 
 https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/
+
+WebSDR
+
+http://websdr.org/
+
+hubmartin 18.1.2019. Universal Radio Hacker SDR Tutorial on 433 MHz radio plugs. Katsottavissa: https://www.youtube.com/watch?v=sbqMqb6FVMY&t=199s. Katsottu 3.12.2025.
+
+Cornelius 04.1.2022. Decode 433.92 MHz weather station data. One Transistor. Luettavissa: https://www.onetransistor.eu/2022/01/decode-433mhz-ask-signal.html. Luettu: 3.12.2025
